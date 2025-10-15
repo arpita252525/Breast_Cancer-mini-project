@@ -1,0 +1,27 @@
+Breast Cancer Classification Project
+
+This project uses the Breast Cancer Dataset from Kaggle (by Yasser H) to classify tumors as Malignant (M) or Benign (B) based on cell nuclei features. 
+It includes Exploratory Data Analysis (EDA), model training, and a Streamlit web app for live predictions.
+
+Dataset Details:
+- Source: Kaggle (yasserh/breast-cancer-dataset)
+- Samples: 569
+- Features: 30 numeric + 1 target (diagnosis)
+- Target: M = Malignant, B = Benign
+
+Key Features:
+- radius_mean, texture_mean, perimeter_mean, area_mean, smoothness_mean, compactness_mean, concavity_mean, concave points_mean, symmetry_mean, fractal_dimension_mean, etc.
+
+Project Steps:
+1. Data cleaning and preprocessing
+2. Exploratory Data Analysis (EDA)
+3. Feature correlation and visualization
+4. Model building using Logistic Regression, SVM, Random Forest, and KNN
+5. Model evaluation and accuracy comparison
+6. Streamlit app (app.py) for user interaction and live tumor prediction
+
+Result:
+Achieved over 95% accuracy in classifying tumors correctly.
+
+
+  
