@@ -10,7 +10,7 @@ import pickle
 # Load trained model
 model_path = "best_model.pkl"  # Ensure your model file is in the same directory
 with open(model_path, "rb") as file:
-    model = best_model.pkl(file)
+    model = "/mount/src/breast_cancer-mini-project/app.py"(file)
 
 # App Title
 st.title("🩺 Breast Cancer Classification App")
